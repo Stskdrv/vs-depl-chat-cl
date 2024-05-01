@@ -4,6 +4,7 @@ export interface AuthInterface {
     token: string;
     message: string;
     id: string;
+    username?: string;
 }
 
 export interface UserInterface {
